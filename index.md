@@ -2,7 +2,12 @@
 layout: default      # or “page” / “home” depending on the theme
 title: "Data-Blending Lab"
 ---
-
+---
+layout: page        # “page” works for all default themes
+title: "About the Datathon"
+permalink: /about/  # nice URL; omit if you’re fine with /about.html
+nav_order: 2        # optional (for themes like Just-the-Docs)
+---
 # DATATHON
 # Data-Blending Lab 2025 🚀  
 *A 48-hour datathon for elite annotators*
