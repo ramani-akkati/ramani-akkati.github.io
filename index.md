@@ -3,6 +3,7 @@ layout: default
 title: "Datathon 2025"
 permalink: /
 ---
+## Home 
 - 1-sentence hook  
 - Primary CTA buttons → “Register”, “Join Slack”  
 - At-a-glance stats → location, #participants, prizes  
