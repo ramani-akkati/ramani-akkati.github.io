@@ -1,107 +1,64 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  {% seo %}
 
-{% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#6aa84f">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-      <link rel="stylesheet"
+  <!-- Google font preload (keep if you still need it) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
+        as="style" type="text/css" crossorigin>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000"> <!-- browser chrome matches dark bg -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Cayman’s default stylesheet -->
+  <link rel="stylesheet"
         href="{{ '/assets/css/style.css?v='
                  | append: site.github.build_revision
                  | relative_url }}">
-    <style>
-      /* ——— custom navbar tweaks ——— */
-      .page-nav {
-        margin-top: 1rem;
-        font-size: 1rem;
-      }
-      .page-header {
-        padding-top: 1.5rem !important;   /* default was 3–5 rem */
-      }
-        
-      /* Keep bottom padding roomy so the banner still breathes */
-      @media (min-width: 64em) {          /* ≥1024 px */
-        .page-header {
-          padding-bottom: 3rem !important;  /* desktop */
-        }
-      }
-      .page-nav {
-        margin-bottom: 3rem;   /* space between nav and H1 */
-      }
-      .page-nav {
-        padding-bottom: 0.5rem;                     /* keeps text clear of the line   */
-        border-bottom: 1.5px solid rgba(255,255,255,.50); /* white-ish line, 50 % opaque */
-      }
-      .page-nav a {
-        margin-right: 1rem;
-        color: #f5faed;
-        text-decoration: none;
-        border-bottom: 2px solid transparent;
-      }
-      .page-nav a:hover {
-        border-color: #f5faed;
-      } 
-      .page-header {
-      background-color: #3b8021 !important;                         /* solid fallback */
-      background-image: radial-gradient(
-        circle at center,   /* “at center” is optional—the default */
-        #72c15f 0%,         /* inner color */
-        #3b8021 100%        /* outer color */
-      ) !important;
-    }
-    /* Match the “View on GitHub” button so it doesn’t clash */
-    .btn {
-      background-color: #3b8021 !important;
-      border-color:     #3b8021 !important;
-    }
-      <meta name="theme-color" content="#3b8021">
 
-      html, body,
-        .main-content,           /* Cayman’s page wrapper */
-        .site-footer {
-          background-color: #000 !important;  /* solid black */
-          color: #fff !important;             /* default text → white */
-        }
-        
-        /* 2. Force all basic text elements to inherit the white default
-           (covers any future Markdown you add) */
-        p, li, dd, dt, th, td, blockquote, pre, code,
-        h1, h2, h3, h4, h5, h6 {
-          color: inherit !important;
-        }
-        
-        /* 3. Links: pick a bright accent you like */
-        a { color: #E5E5E5 !important; }          /* cyan on black */
-        a:hover, a:focus { color: #e0f2da !important; }
-        
-        /* 4. Buttons (Cayman’s .btn) – invert so text stays readable */
-        .btn {
-          background-color: #fff !important;
-          color: #000 !important;
-          border-color: #fff !important;
-        }
-        .btn:hover {
-          background-color: #E5E5E5 !important;
-          border-color: #E5E5E5 !important;
-        }
-        
-        /* 5. Code blocks & inline code – dark charcoal with white text */
-        pre, code {
-          background-color: #111 !important;
-          color: #fff !important;
-        }
-        
-        /* OPTIONAL: tweak the white nav separator if you want it brighter/dimmer
-        .page-nav { border-bottom: 2px solid rgba(255,255,255,.5); }
-        */
-    </style>
+  <!-- Your overrides (create this file if it doesn’t exist) -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-  </head>
+  <!-- Quick tweaks you’re okay leaving inline -->
+  <style>
+    /* ─── Navbar & banner tweaks ─── */
+    .page-header       { padding-top: 1.5rem !important; }
+    @media (min-width:64em){ .page-header{ padding-bottom:3rem !important; } }
+    .page-nav          { margin-bottom: 0.75rem; padding-bottom: 0.5rem;
+                         border-bottom: 1.5px solid rgba(255,255,255,.5); }
+    .page-nav a        { margin-right: 1rem; color: #f5faed;
+                         text-decoration:none; border-bottom:2px solid transparent; }
+    .page-nav a:hover  { border-color:#f5faed; }
+
+    /* ─── Banner colors (radial gradient) ─── */
+    .page-header{
+      background-color:#3b8021 !important;
+      background-image:radial-gradient(circle at center,#72c15f 0%,#3b8021 100%) !important;
+    }
+    .btn{ background:#3b8021 !important; border-color:#3b8021 !important; }
+
+    /* ─── Global dark theme overrides ─── */
+    html,body,
+    .main-content,.site-footer{ background:#000 !important; color:#fff !important; }
+
+    p,li,dd,dt,th,td,blockquote,pre,code,
+    h1,h2,h3,h4,h5,h6{ color:inherit !important; }
+
+    a{ color:#E5E5E5 !important; }
+    a:hover,a:focus{ color:#e0f2da !important; }
+
+    /* Buttons inverted for dark background */
+    .btn{ background:#fff !important; color:#000 !important; border-color:#fff !important; }
+    .btn:hover{ background:#E5E5E5 !important; border-color:#E5E5E5 !important; }
+
+    /* Code blocks */
+    pre,code{ background:#111 !important; color:#fff !important; }
+  </style>
+</head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
