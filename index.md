@@ -3,12 +3,9 @@ layout: default
 title: "Datathon 2025"
 permalink: /
 ---
-<div align="center">
 
 # Data-Blending Lab 2025  
 ### *Remix data.  Ship value.  [Dates] · NVIDIA DI*
-
-</div>
 
 ## Why join?
 
