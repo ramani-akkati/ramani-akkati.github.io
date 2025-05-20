@@ -6,7 +6,7 @@ permalink: /
 <div align="center">
 
 # Data-Blending Lab 2025  
-### *Remix data.  Ship value.  June 17-18 · NVIDIA HQ*
+### *Remix data.  Ship value.  [Dates] · NVIDIA DI*
 
 ---
 
