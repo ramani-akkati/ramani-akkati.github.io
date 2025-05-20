@@ -31,7 +31,4 @@ permalink: /
 
 &nbsp;
 
----
 
-
-## Organizers
