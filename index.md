@@ -3,10 +3,34 @@ layout: default
 title: "Datathon 2025"
 permalink: /
 ---
-## Home 
-- 1-sentence hook  
-- Primary CTA buttons → “Register”, “Join Slack”  
-- At-a-glance stats → location, #participants, prizes  
-- Countdown timer  
-- Quick-link cards → Schedule • Dataset Catalog • Submission Guide  
-- Sponsor / organizer logos in a footer strip  
+<div align="center">
+
+# Data-Blending Lab 2025  
+### *Remix data.  Ship value.  June 17-18 · NVIDIA HQ*
+
+---
+
+## Why join?
+
+- **Level-up fast.** In 48 hours you’ll go from “annotator” to **data-blend scientist**—hands-on.
+- **Real impact.** Winning blends feed directly into internal pilots; you’ll see your work live in production.  
+
+&nbsp;
+
+---
+
+## Event snapshot
+
+| | |
+|---|---|
+| **🗓 Dates** | [days] • **[dates]** |
+| **🏢 Venue** | [Room] • [Building] |
+| **👥 Teams** | 3–5 people • 40 people total |
+| **🏆 Prizes** | [insert] · [insert] · [insert] |
+
+&nbsp;
+
+---
+
+
+## Organizers
