@@ -5,7 +5,7 @@ permalink: /
 ---
 
 # Data-Blending Lab 2025 {:.text-center} 
-### *Remix data.  Ship value.  [Dates] · NVIDIA DI* {:.text-center}
+### *Remix data.  Ship value.  [Dates] · NVIDIA DI* 
 
 ## Why join?
 
