@@ -9,7 +9,6 @@ permalink: /
 ### *Remix data.  Ship value.  [Dates] · NVIDIA DI*
 
 </div>
----
 
 ## Why join?
 
