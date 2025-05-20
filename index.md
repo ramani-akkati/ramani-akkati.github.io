@@ -12,8 +12,8 @@ permalink: /
 
 ## Why join?
 
-- **Level-up fast.** In 48 hours you’ll go from “annotator” to **data-blend scientist**—hands-on.
-- **Real impact.** Winning blends feed directly into internal pilots; you’ll see your work live in production.  
+**Level-up fast.** In 48 hours you’ll go from “annotator” to **data-blend scientist**—hands-on.
+**Real impact.** Winning blends feed directly into internal pilots; you’ll see your work live in production.  
 
 &nbsp;
 
