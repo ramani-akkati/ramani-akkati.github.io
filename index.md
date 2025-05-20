@@ -8,6 +8,7 @@ permalink: /
 # Data-Blending Lab 2025  
 ### *Remix data.  Ship value.  [Dates] · NVIDIA DI*
 
+</div>
 ---
 
 ## Why join?
