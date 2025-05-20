@@ -4,8 +4,8 @@ title: "Datathon 2025"
 permalink: /
 ---
 
-# Data-Blending Lab 2025  
-### *Remix data.  Ship value.  [Dates] · NVIDIA DI*
+# Data-Blending Lab 2025 {:.text-center} 
+### *Remix data.  Ship value.  [Dates] · NVIDIA DI* {:.text-center}
 
 ## Why join?
 
