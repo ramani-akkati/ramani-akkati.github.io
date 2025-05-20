@@ -19,8 +19,6 @@ permalink: /
 
 ## Event snapshot
 
-| | |
-|---|---|
 | **🗓 Dates** | [days] • **[dates]** |
 | **🏢 Venue** | [Room] • [Building] |
 | **👥 Teams** | 3–5 people • 40 people total |
