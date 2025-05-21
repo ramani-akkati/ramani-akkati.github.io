@@ -23,6 +23,7 @@ Data-Blending Lab 2025 is where annotators become **blend architects**, turning 
 ---
 
 ## Success Criteria Snapshot
+
 | What we measure | How it scores |
 |-----------------|---------------|
 | **Δ vs Baseline** | ≥ +15 % lift → Excellent tier |
@@ -33,6 +34,7 @@ Data-Blending Lab 2025 is where annotators become **blend architects**, turning 
 ---
 
 ## Organizers & Contacts
+
 | Role | Name | Slack / Email |
 |------|------|---------------|
 | **TBD** | *TBD* | *@handle* |
