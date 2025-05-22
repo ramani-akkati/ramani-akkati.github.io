@@ -15,7 +15,7 @@ permalink: /schedule/
 | Time | Activity |
 |------|----------|
 | 8:30 – 9:00 AM | Check In – “badge” pick-up + breakfast <br> Opening mingle ice-breaker |
-| 9:00 – 9:30 AM | Kick-off (DI lead) |
+| 9:00 – 9:30 AM | Kick-off <br>(DI lead) |
 | 9:30 – 10:30 AM | Dataset Expo lightning demos |
 | 10:30 – 11:00 AM | Short break |
 | 11:00 – 11:30 AM | Platform walk-through |
