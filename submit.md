@@ -8,11 +8,11 @@ permalink: /submit/
 
 ### Required Artifacts 
 
-✔️ Workflow Documentation
+✓ Workflow Documentation
 
-✔️ Final Blend Recipe
+✓ Final Blend Recipe
 
-✔️ Pitch Deck
+✓ Pitch Deck
 
 [insert example folder]
 
