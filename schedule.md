@@ -5,6 +5,11 @@ permalink: /schedule/
 ---
 ## Event Schedule
 
+<!-- Two-column layout -->
+<div style="display:flex; gap:2rem; flex-wrap:wrap;">
+
+  <!-- Column 1 : Day 1 table -->
+  <div style="flex:1; min-width:260px;">
 ### Day 1
 
 | Time | Activity | Purpose / Notes |
@@ -21,7 +26,10 @@ permalink: /schedule/
 | 5:45 – 6:30 PM *(Optional)* | Dinner served | Ops pushes daily recap photos to Slack |
 | 6:30 – 8:30 PM *(Optional)* | Open Lab + Mentor Office Hours | Quiet zone & white-board zone marked |
 
+</div>
 
+<!-- Column 2 : Day 2 table -->
+  <div style="flex:1; min-width:260px;">
 ### Day 2
 
 | Time | Activity | Purpose / Notes |
@@ -37,3 +45,5 @@ permalink: /schedule/
 | 5:30 – 6:00 PM | Leaderboard reveal & Awards | Prizes + photos |
 | 6:30 – 7:00 PM | Retrospective | Slack for kudos & deltas |
 | 7:00 – 7:30 PM | Pack-down, informal networking | Ops export artifacts; venue closes 7:00 PM |
+
+</div>
