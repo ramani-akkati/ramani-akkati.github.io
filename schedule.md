@@ -21,7 +21,6 @@ permalink: /schedule/
 | 5:45 – 6:30 PM *(Optional)* | Dinner served | Ops pushes daily recap photos to Slack |
 | 6:30 – 8:30 PM *(Optional)* | Open Lab + Mentor Office Hours | Quiet zone & white-board zone marked |
 
----
 
 ### Day 2
 
