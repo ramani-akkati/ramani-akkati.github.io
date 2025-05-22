@@ -44,6 +44,6 @@ permalink: /schedule/
 | 4:30 – 5:30 PM | Award Decision-Making Break |
 | 5:30 – 6:00 PM | Leaderboard reveal & Awards |
 | 6:30 – 7:00 PM | Retrospective |
-| 7:00 – 7:30 PM | Pack-down, informal networking |
+| 7:00 – 7:30 PM | Informal networking |
 
 </div>
