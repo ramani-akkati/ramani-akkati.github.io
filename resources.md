@@ -4,7 +4,6 @@ title: "Tools and Resources"
 permalink: /tools/
 ---
 
-## Tools and Resources
-- GPU quota details & how to request more  
+## Tools and Resources 
 - Mentor office-hours schedule  
 - Platform FAQ link  
