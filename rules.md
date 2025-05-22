@@ -30,5 +30,8 @@ permalink: /rules/
 ## Eligibility rules
 - Only organizer provided datasets should be used
 - Teams should be between 3-4 people
-- [Code of Conduct summary + link to full doc]  
-- [Disqualification scenarios]  
+  
+## Code of Conduct
+[Code of Conduct summary + link to full doc]  
+
+## Disqualification Scenarios
