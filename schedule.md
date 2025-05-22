@@ -16,14 +16,14 @@ permalink: /schedule/
 |------|----------|
 | 8:30 – 9:00 AM | Check In – “badge” pick-up + breakfast <br> Opening mingle ice-breaker |
 | 9:00 – 9:30 AM | Kick-off (DI lead) |
-| 9:30 – 10:30 AM | Dataset Expo lightning demos (6 × 10 min incl. Q&A) |
+| 9:30 – 10:30 AM | Dataset Expo lightning demos |
 | 10:30 – 11:00 AM | Short break |
-| 11:00 – 11:30 AM | Platform walk-through <br>(Blend Builder → Train/Test → Leaderboard) |
+| 11:00 – 11:30 AM | Platform walk-through |
 | 11:30 AM – 1:00 PM | Ideation Sprint |
 | 1:00 – 2:00 PM | Lunch |
 | 2:00 – 5:00 PM | Build Sprint #1 |
-| 5:00 – 5:45 PM | Milestone-1 Stand-ups <br>(5 min × 8 teams) |
-| 5:45 – 6:30 PM *(Optional)* | Dinner served |
+| 5:00 – 5:45 PM | Milestone-1 Stand-ups |
+| 5:45 – 6:30 PM *(Optional)* | Dinner + Networking |
 | 6:30 – 8:30 PM *(Optional)* | Open Lab + Mentor Office Hours |
 
 </div>
