@@ -18,6 +18,8 @@ permalink: /submit/
 
 [insert example folder]
 
+---
+
 ### Hard Deadlines and Late Penalty Policy 
 _coming soon_
 
