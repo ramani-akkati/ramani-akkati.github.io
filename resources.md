@@ -5,5 +5,12 @@ permalink: /tools/
 ---
 
 ## Tools and Resources 
-- Mentor office-hours schedule  
-- Platform FAQ link  
+
+[Pitch Deck Template]
+
+[AI Assistant Link
+
+[Hackathon Onboarding Packet]
+
+[Insert Mentor office-hours schedule]  
+
