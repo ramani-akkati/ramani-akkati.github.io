@@ -8,10 +8,10 @@ permalink: /submit/
 
 ### Required Artifacts 
 
--   [ ] Idea Submitted to Idea Canvas on Slack by 1:00 PM on Day 1
--   [ ] Workflow Documentation
--   [ ] Final Blend Recipe
--   [ ] Pitch Deck
+☐ Idea Submitted to Idea Canvas on Slack by 1:00 PM on Day 1
+☐ Workflow Documentation
+☐ Final Blend Recipe
+☐ Pitch Deck
 
 [insert example folder]
 
