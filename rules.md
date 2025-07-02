@@ -8,30 +8,53 @@ permalink: /rules/
 
 ### Pre-Existing Use Case
 
-| KPI | Weight | How judges / infra assign the raw score | Point bands & descriptors |
-|-----|-------:|-----------------------------------------|---------------------------|
-| **Best Δ vs Baseline** | 40 | • Evaluation service re-runs the team’s single best model on the benchmark.<br>• Improvement % = (team score – baseline) ÷ baseline × 100.<br>• We bucket that % into a tier → points below. | ≥ +15 % → 38-40 pts (Excellent)<br>+10-14.9 % → 32-37 pts (Strong)<br>+5-9.9 % → 24-31 pts (Solid)<br>0-4.9 % → 13-23 pts (Needs lift)<br>&lt; 0 % → 0-12 pts (Below) |
-| **Blend Ingenuity** <br>(novel pairing, clever slice selection) | 30 | Judges rate originality & strategic value of the blend (0-20).<br>Sub-criteria:<br>a) Novel dataset pairing<br>b) Smart weighting/slice logic<br>c) Clear rationale for each choice. | 27-30 pts (Highly inventive)<br>21-26 pts (Innovative)<br>15-20 pts (Competent)<br>7-14 pts (Routine)<br>0-6 pts (Unoriginal) |
-| **Presentation & Impact Story** | 15 | Panel of judges scores live pitch on five sub-criteria (0-2 pts each):<br>a. Problem Fit & Use-Case<br>b. Clarity of Blend Logic<br>c. Demo Depth (live or recorded)<br>d. Feasibility / Next Steps<br>e. Visual & Narrative Quality<br>• Total (0-10) averaged across judges. | 14-15 pts (Compelling)<br>11-13 pts (Solid)<br>8-10 pts (Basic)<br>3-7 pts (Unclear)<br>0-2 pts (Not shown) |
-| **Documentation & Reproducibility** | 15 | Judges verify recipe completeness & ability to reproduce results from provided logs/scripts. | 13-15 pts (Fully reproducible)<br>10-12 pts (Minor gaps)<br>7-9 pts (Partial)<br>3-6 pts (Significant gaps)<br>0-2 pts (Not reproducible) |
+| KPI | Weight | Description |
+|-----|-------:|-----------------------------------------|
+| **Best Δ vs Baseline** | 40 |• Improvement % = (team score – baseline) ÷ baseline × 100. |
+| **Blend Ingenuity** <br>(novel pairing, clever slice selection) | 40 | Judges rate originality & strategic value of the blend.<br>Sub-criteria:<br>a) Novel dataset pairing<br>b) Smart weighting/slice logic<br>c) Clear rationale for each choice. |
+| **Presentation & Impact Story** | 10 | Panel of judges score live pitch on five sub-criteria:<br>a. Problem Fit & Use-Case<br>b. Clarity of Blend Logic<br>c. Demo Depth (live or recorded)<br>d. Feasibility / Next Steps<br>e. Visual & Narrative Quality<br>• Total averaged across judges. |
+| **Documentation & Reproducibility** | 10 | Judges verify recipe completeness & ability to reproduce results from provided logs/scripts. |
 
 
 ## New Use Case
 
-| KPI | Weight | How judges assign the raw score | Point bands & descriptors* |
-|-----|-------:|---------------------------------|----------------------------|
-| **Use-Case Value & Impact** | 30 | Panel scores 0-30 on:<br>a) Problem significance (who cares & why?)<br>b) Expected ROI / strategic fit for NVIDIA & DataFactory<br>c) Breadth of downstream adoption paths | 25-30 pts (Transformative)<br>19-24 pts (High impact)<br>13-18 pts (Moderate)<br>6-12 pts (Limited)<br>0-5 pts (Unclear) |
-| **Blend Ingenuity** <br>(novel pairing, clever slice logic) | 25 | Judges rate 0-25 on:<br>a) Novel dataset combinations<br>b) Smart weighting / slicing choices<br>c) Clear justification of each component | 21-25 pts (Highly inventive)<br>16-20 pts (Innovative)<br>11-15 pts (Competent)<br>5-10 pts (Routine)<br>0-4 pts (Unoriginal) |
-| **Technical Feasibility & Validation Plan** | 20 | Judges score 0-20 on:<br>a) Soundness of the proposed modelling approach<br>b) Credible evaluation strategy (fair, not gameable)**<br>c) Realistic resource/risk assessment | 18-20 pts (Rock-solid)<br>14-17 pts (Strong)<br>10-13 pts (Workable)<br>4-9 pts (Questionable)<br>0-3 pts (Unviable) |
-| **Prototype Evidence & Demo Depth** <br>(Presentation & Impact Story) | 15 | 0-15 based on live/recorded demo:<br>a) Functioning proof-of-concept or qualitative results<br>b) Clarity of walk-through & insights gleaned so far | 13-15 pts (Compelling)<br>9-12 pts (Solid)<br>5-8 pts (Basic)<br>2-4 pts (Limited)<br>0-1 pts (Not shown) |
-| **Documentation & Reproducibility** | 10 | Judges verify recipe completeness & ability to reproduce results from provided logs/scripts. | 9-10 pts (Fully reproducible)<br>7-8 pts (Minor gaps)<br>5-6 pts (Partial)<br>2-4 pts (Significant gaps)<br>0-1 pts (Not reproducible) |
-
+| KPI | Weight | Description |
+|-----|-------:|---------------------------------|
+| **Use-Case Value & Impact** | 30 | Panel scores on:<br>a) Problem significance (who cares & why?)<br>b) Expected ROI / strategic fit for NVIDIA & DataFactory<br>c) Breadth of downstream adoption paths |
+| **Blend Ingenuity** <br>(novel pairing, clever slice logic) | 30 | a) Novel dataset combinations<br>b) Smart weighting / slicing choices<br>c) Clear justification of each component |
+| **Technical Feasibility & Validation Plan** | 20 | a) Soundness of the proposed modelling approach<br>b) Credible evaluation strategy (fair, not gameable)<br>c) Realistic resource/risk assessment |
+| **Prototype Evidence & Demo Depth** <br>(Presentation & Impact Story) | 10 | Based on live presentation:<br>a) Functioning proof-of-concept or qualitative results<br>b) Clarity of walk-through & insights gleaned so far |
+| **Documentation & Reproducibility** | 10 | Judges verify recipe completeness & ability to reproduce results from provided logs/scripts. |
 
 ## Eligibility rules
-- Only organizer provided datasets should be used
+- Only provided datasets should be used
 - Teams should be between 3-4 people
   
 ## Code of Conduct
-[Code of Conduct summary + link to full doc]  
+This event is a professional, inclusive space. All participants — hackers, mentors, judges, and staff — must follow the expectations below from kickoff through post-event communications.
+#### 1. **Expected Behavior**
+- Be respectful. Treat every person’s ideas, background, and role with courtesy.
+- Use inclusive language. Avoid slang or jokes that single out nationality, gender, race, sexual orientation, religion, disability, or age.
+- Collaborate constructively. Offer feedback on ideas, not individuals.
+- Share the mic. Give everyone equal opportunity to speak during discussions and demos.
+- Protect confidentiality. **Do not post proprietary data or screenshots outside designated channels.**
+#### 2. **Unacceptable Behavior**
+- Harassment, intimidation, or discrimination in any form (verbal, written, or physical).
+- Unwelcome sexual attention — comments, imagery, or physical contact.
+- Doxxing or sharing personal information without consent.
+- Disruptive behavior that interferes with presentations, mentoring, etc.
+- Advocating or encouraging any of the above actions.
+#### 3. **Reporting a Problem**
+- Speak up immediately. If you witness or experience misconduct, contact an organizer or mentor in person or DM them on Slack.
+- Provide details. What happened, when, and who was involved. Screenshots or log excerpts help.
+- Confidential handling. Reports go directly to the core organizing team and are not shared beyond those addressing the issue.
+#### 4. **Enforcement**
+- First incident: Private verbal or written warning; may include a mandatory apology.
+- Second incident: Removal from Slack channels and loss of mentor privileges for the remainder of the event.
+- Severe or repeated incidents: Immediate expulsion from the venue, forfeiture of prizes, and notification to employer.
+#### 5. **Acknowledgment**
+- By joining the event, you acknowledge you have read and will abide by this Code of Conduct. Organizers reserve the right to update the policy as needed and will announce any changes in the channel.
 
 ## Disqualification Scenarios
+1. Not following Code of Conduct
+2. Using Datasets that are not pre-approved
