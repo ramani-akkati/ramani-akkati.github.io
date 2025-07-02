@@ -12,7 +12,7 @@ permalink: /rules/
 |-----|-------:|-----------------------------------------|
 | **Best Δ vs Baseline** | 40 |• Improvement % = (team score – baseline) ÷ baseline × 100. |
 | **Blend Ingenuity** <br>(novel pairing, clever slice selection) | 40 | Judges rate originality & strategic value of the blend.<br>Sub-criteria:<br>a) Novel dataset pairing<br>b) Smart weighting/slice logic<br>c) Clear rationale for each choice. |
-| **Presentation & Impact Story** | 10 | Panel of judges score live pitch on five sub-criteria:<br>a. Problem Fit & Use-Case<br>b. Clarity of Blend Logic<br>c. Demo Depth (live or recorded)<br>d. Feasibility / Next Steps<br>e. Visual & Narrative Quality<br>• Total averaged across judges. |
+| **Presentation & Impact Story** | 10 | Panel of judges score live pitch on five sub-criteria:<br>a. Problem Fit & Use-Case<br>b. Clarity of Blend Logic<br>c. Demo Depth (live or recorded)<br>d. Feasibility / Next Steps<br>e. Visual & Narrative Quality |
 | **Documentation & Reproducibility** | 10 | Judges verify recipe completeness & ability to reproduce results from provided logs/scripts. |
 
 
@@ -31,7 +31,7 @@ permalink: /rules/
 - Teams should be between 3-4 people
   
 ## Code of Conduct
-This event is a professional, inclusive space. All participants — hackers, mentors, judges, and staff — must follow the expectations below from kickoff through post-event communications.
+This event is a professional, inclusive space. All participants — hackers, mentors, judges, and organizers — must follow the expectations below from kickoff through post-event communications.
 #### 1. **Expected Behavior**
 - Be respectful. Treat every person’s ideas, background, and role with courtesy.
 - Use inclusive language. Avoid slang or jokes that single out nationality, gender, race, sexual orientation, religion, disability, or age.
