@@ -4,14 +4,14 @@ title: "Datathon 2025"
 permalink: /
 ---
 
-# Data-Blending Lab 2025 
+# Data Blending Challenge 2025 
 ### *July 24th - 25th · NVIDIA DF Data Intelligence* 
 
 ---
 
-## What *is* the Data-Blending Lab?
+## What *is* the Data Blending Challenge?
 
-**Data-Blending Lab 2025** is a 2 day long, hands-on datathon where small teams remix NVIDIA’s existing datasets into **high-value, low-latency blends**, then prove their worth with quick-turn fine-tuning and live benchmarks.
+**Data Blending Challenge 2025** is a 2 day long, hands-on datathon where small teams remix NVIDIA’s existing datasets into **high-value, low-latency blends**, then prove their worth with quick-turn fine-tuning and live benchmarks.
 
 ### Why we’re doing it
 - **Unlock hidden signal.** We already own terabytes of labeled data, so the next accuracy jump often comes from **smart combinations**, not more collection.
