@@ -16,7 +16,7 @@ permalink: /rules/
 | **Documentation & Reproducibility** | 10 | Judges verify recipe completeness & ability to reproduce results from provided logs/scripts. |
 
 
-## New Use Case
+### New Use Case
 
 | KPI | Weight | Description |
 |-----|-------:|---------------------------------|
