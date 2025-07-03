@@ -19,8 +19,8 @@ permalink: /schedule/
 | 9:30 – 10:30 AM | Dataset Expo lightning demos |
 | 10:30 – 11:00 AM | Short break |
 | 11:00 – 11:30 AM | Platform walk-through |
-| 11:30 AM – 1:00 PM | Ideation Sprint |
-| 1:00 – 2:00 PM | Lunch |
+| 11:30 AM – 12:30 PM | Lunch |
+| 12:30 – 2:00 PM| DLI Workshop / Ideation Sprint |
 | 2:00 – 5:00 PM | Build Sprint #1 |
 | 5:00 – 5:45 PM | Milestone-1 Stand-ups |
 | 5:45 – 6:30 PM *(Optional)* | Dinner + Networking |
@@ -34,7 +34,7 @@ permalink: /schedule/
 
 | Time | Activity |
 |------|----------|
-| 8:30 – 9:00 AM | Check-in + Breakfast bar re-opens |
+| 8:30 – 9:00 AM | Check-in + Breakfast re-opens |
 | 9:00 AM – 12:00 PM | Build Sprint #2 |
 | 10:30 AM | Mentor roam checkpoint |
 | 12:00 PM – 1:00 PM | Lunch |
