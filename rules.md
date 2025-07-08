@@ -32,6 +32,7 @@ permalink: /rules/
   
 ## Code of Conduct
 This event is a professional, inclusive space. All participants — hackers, mentors, judges, and organizers — must follow the expectations below from kickoff through post-event communications.
+
 #### 1. **Expected Behavior**
 - Be respectful. Treat every person’s ideas, background, and role with courtesy.
 - Use inclusive language. Avoid slang or jokes that single out nationality, gender, race, sexual orientation, religion, disability, or age.
