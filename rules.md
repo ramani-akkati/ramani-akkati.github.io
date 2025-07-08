@@ -39,20 +39,24 @@ This event is a professional, inclusive space. All participants — hackers, men
 - Collaborate constructively. Offer feedback on ideas, not individuals.
 - Share the mic. Give everyone equal opportunity to speak during discussions and demos.
 - Protect confidentiality. **Do not post proprietary data or screenshots outside designated channels.**
+
 #### 2. **Unacceptable Behavior**
 - Harassment, intimidation, or discrimination in any form (verbal, written, or physical).
 - Unwelcome sexual attention — comments, imagery, or physical contact.
 - Doxxing or sharing personal information without consent.
 - Disruptive behavior that interferes with presentations, mentoring, etc.
 - Advocating or encouraging any of the above actions.
+
 #### 3. **Reporting a Problem**
 - Speak up immediately. If you witness or experience misconduct, contact an organizer or mentor in person or DM them on Slack.
 - Provide details. What happened, when, and who was involved. Screenshots or log excerpts help.
 - Confidential handling. Reports go directly to the core organizing team and are not shared beyond those addressing the issue.
+
 #### 4. **Enforcement**
 - First incident: Private verbal or written warning; may include a mandatory apology.
 - Second incident: Removal from Slack channels and loss of mentor privileges for the remainder of the event.
 - Severe or repeated incidents: Immediate expulsion from the venue, forfeiture of prizes, and notification to employer.
+
 #### 5. **Acknowledgment**
 - By joining the event, you acknowledge you have read and will abide by this Code of Conduct. Organizers reserve the right to update the policy as needed and will announce any changes in the channel.
 
