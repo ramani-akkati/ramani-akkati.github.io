@@ -38,8 +38,10 @@ Bring your data intuition and energy - GPUs, mentors, and snacks will be on site
 | **👥 Teams** | 3–4 people • 31 people total |
 | **🏆 Prizes** | $100 (per individual of winning team) • Org-Wide Recognition |
 
+
 ---
 ---
+
 ## Organizers & Contacts
 
 | Name | Slack / Email |
