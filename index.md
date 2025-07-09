@@ -9,27 +9,30 @@ permalink: /
 
 ---
 
-## What *is* the Data Blending Challenge?
+## What is the Data Blending Challenge?
 
-**Data Blending Challenge 2025** is a 2 day long, hands-on datathon where small teams remix NVIDIA’s existing datasets into **high-value, low-latency blends**, then prove their worth with quick-turn fine-tuning and live benchmarks.
+The Data Blending Challenge is a two-day sprint where small teams of 3–4 people explore new ways to combine our existing datasets and see how the blends affect model performance.
+
+DataFactory already holds dozens of labeled text and image datasets, each gathered for a single purpose. Your task is to mix and match slices to improve model task performance, or even innovate new model tasks. For example, merging product reviews with support-ticket logs might sharpen sentiment analysis, while combining retail product photos with street-scene images could improve object detection. Over the two days you’ll create those blends, one-click fine-tune models on them, and get near instant feedback.
 
 ### Why we’re doing it
-- **Unlock hidden signal.** We already own terabytes of labeled data, so the next accuracy jump often comes from **smart combinations**, not more collection.
-- **Level-up annotators.** You know the data best. This event turns that knowledge into model-ready assets and production pilots.
-- **Ship fast.** Winning blends move straight into a follow-up.
+-  Stretch the value of data we already own—no new collection needed.
+-  Learn how different data sources interact and influence model quality.
+-  Surface quick wins that can move straight into follow-up projects.
 
 ### How it works
-1. **Explore slices** in the Blend Builder UI and drag-drop them into a proposed dataset.
-2. **One-click train** a model — results auto-land on the leaderboard.
-3. **Iterate for uplift** until you beat a baseline or craft a compelling new application.
-4. **Pitch & demo** — judges score ingenuity, impact, and reproducibility.
+1. **Explore:** Log in to the Data Blending Platform, browse text / image datasets, and inspect slices with the built-in tools.
+2. **Assemble:** Tag useful slices or generate synthetic ones, then upload your blend and pick a track (Text, Image, or Red-Teaming).
+3. **Fine-tune:** Launch a one-click job; leaderboard scores appear in 25–40 min.
+4. **Improve:** Tweak slices, re-submit, repeat.
+5. **Demo (Friday PM):** Present your top blend, model stats, and key takeaways.
 
 ### What you’ll leave with
-- A **blended dataset** + replayable training recipe.
-- A **fine-tuned model** that either outperforms or opens a new frontier.
-- A **clear impact story** ready for exec review.
+- A blended dataset with a reproducible training script.
+- A fine-tuned model that improves accuracy or unlocks a new application.
+- A concise impact summary for leadership review.
 
-Bring your dataset instincts, creative risk-taking, and caffeine of choice — we’ll supply the GPUs, mentors, and prizes.
+Bring your data intuition and energy - GPUs, mentors, and snacks will be on site.
 
 ---
 
