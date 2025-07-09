@@ -9,7 +9,7 @@ permalink: /schedule/
 <div style="display:flex; gap:2rem; flex-wrap:wrap;">
 
   <!-- Column 1 : Day 1 table -->
-  <div markdown="1" style="flex:1; min-width:290px;">
+  <div markdown="1" class="day1-table" style="flex:1; min-width:290px;">
 ### Day 1
 
 | Time | Activity |
@@ -29,7 +29,7 @@ permalink: /schedule/
 </div>
 
 <!-- Column 2 : Day 2 table -->
-  <div markdown="1" style="flex:1; min-width:290px;">
+  <div markdown="1" class="day2-table" style="flex:1; min-width:290px;">
 ### Day 2
 
 | Time | Activity |
