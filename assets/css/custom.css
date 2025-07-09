@@ -5,17 +5,19 @@ h1, h2, h3, h4, h5, h6, p, li, dd, dt, th, td, code, pre {
   font-family: "Roboto Mono", monospace !important;
 }
 
-/* Faint binary pattern over the whole page */
+/* faint binary overlay */
 body::before{
-  content:"";
+  content:"010101010101 010101010101 010101010101 "
+         "010101010101 010101010101 010101010101 ";
   position:fixed;
-  inset:0;                /* top:0; right:0; bottom:0; left:0; */
-  z-index:-1;             /* sit behind all content */
-  pointer-events:none;    /* don’t block clicks */
-  background-repeat:repeat;
-  background-image:url('data:image/svg+xml;utf8,\
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120">\
-  <text x="0"  y="40"  font-family="Roboto Mono" font-size="32" fill="white" fill-opacity="0.05">010101010101</text>\
-  <text x="0"  y="100" font-family="Roboto Mono" font-size="32" fill="white" fill-opacity="0.05">010101010101</text>\
-</svg>');
+  top:0; left:0; width:100%; height:100%;
+  font-family:"Roboto Mono", monospace;
+  font-size:32px;            /* adjust chunk size */
+  line-height:40px;
+  color:rgba(255,255,255,0.08);  /* 8 % for visibility—dial back later */
+  white-space:pre;
+  z-index:0;                 /* sit above the solid #000 background */
+  pointer-events:none;
+  user-select:none;          /* don’t let it get copied */
+  opacity:1;                 /* keep at 1; we already control alpha via rgba */
 }
