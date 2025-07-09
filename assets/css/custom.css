@@ -5,6 +5,14 @@ h1, h2, h3, h4, h5, h6, p, li, dd, dt, th, td, code, pre {
   font-family: "Roboto Mono", monospace !important;
 }
 
+/* widen first column of the Day-2 schedule table */
+.day2-table td:first-child,
+.day2-table th:first-child{
+  width: 390px;      /* pick any width */
+  min-width: 390px;  /* prevent shrinking on small screens */
+  white-space: nowrap;
+}
+
 /* 5 %-opacity “0101…” text blanket */
 /* body::after{ */
   /* full-viewport layer */
