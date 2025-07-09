@@ -29,7 +29,7 @@ permalink: /schedule/
 </div>
 
 <!-- Column 2 : Day 2 table -->
-  <div markdown="1" style="flex:1; min-width:350px;">
+  <div markdown="1" style="flex:1; min-width:400px;">
 ### Day 2
 
 | Time | Activity |
