@@ -40,7 +40,6 @@ Bring your data intuition and energy - GPUs, mentors, and snacks will be on site
 
 
 ---
----
 
 ## Organizers & Contacts
 
