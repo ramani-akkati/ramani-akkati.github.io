@@ -22,30 +22,6 @@ Data-Blending Lab 2025 is where annotators become **blend architects**, turning 
 
 ---
 
-## Success Criteria Snapshot
-
-### Pre-Existing Use Case Track  
-
-| What we measure | How it scores |
-|-----------------|---------------|
-| **Δ vs Baseline** | ≥ +15 % lift → Excellent tier |
-| **Blend Ingenuity** | Judges rate novelty & slice strategy |
-| **Presentation & Impact Story** | 5-factor live-pitch score |
-| **Documentation & Reproducibility** | Must rerun clean on infra |
-
-
-### New Use Case Track  
-
-| What we measure | How it scores |
-|-----------------|---------------|
-| **Use-Case Value & Impact** | Judges rate problem significance |
-| **Blend Ingenuity** | Novel dataset pairing & logic |
-| **Technical Feasibility & Validation Plan** | Sound modelling + credible eval strategy |
-| **Prototype Evidence & Demo Depth** | Demo depth & clarity |
-| **Documentation & Reproducibility** | Must rerun clean on infra |
-
----
-
 ## Organizers & Contacts
 
 | Role | Name | Slack / Email |
