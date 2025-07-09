@@ -14,8 +14,6 @@ permalink: /submit/
 
 ✓ Pitch Deck
 
-[insert example folder]
-
 ---
 
 ### Hard Deadlines
