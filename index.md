@@ -38,6 +38,19 @@ Bring your data intuition and energy - GPUs, mentors, and snacks will be on site
 | **👥 Teams** | 3–4 people • 31 people total |
 | **🏆 Prizes** | $100 (per individual of winning team) • Org-Wide Recognition |
 
+---
+---
+## Organizers & Contacts
+
+| Name | Slack / Email |
+|------|---------------|
+| Ramani Akkati | Slack: *@Ramani Akkati*<br>Email: rakkati@nvidia.com |
+| Shaan Jain |  Slack: *@Shaan Jain*<br>Email: shaanj@nvidia.com |
+| Pratyush Muthukumar | Slack: *@Pratyush Muthukumar*<br>Email: pmuthukumar@nvidia.com |
+| Andrew Mathau | Slack: *@Andrew Mathau*<br>Email: amathau@nvidia.com |
+| Sarah Amiraslani | Slack: *@Sarah Amiraslani*<br>Email: samiraslani@nvidia.com |
+| Tomo Kanazawa | Slack: *@Tomo Kanazawa*<br>Email: tkanazawa@nvidia.com |
+
 &nbsp;
 
 
