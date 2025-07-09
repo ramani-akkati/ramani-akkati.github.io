@@ -5,19 +5,22 @@ h1, h2, h3, h4, h5, h6, p, li, dd, dt, th, td, code, pre {
   font-family: "Roboto Mono", monospace !important;
 }
 
-/* faint binary overlay */
+/* Full-page, faint “010101…” overlay */
 body::before{
-  content:"010101010101 010101010101 010101010101 "
-         "010101010101 010101010101 010101010101 ";
+  content:"";
   position:fixed;
-  top:0; left:0; width:100%; height:100%;
-  font-family:"Roboto Mono", monospace;
-  font-size:32px;            /* adjust chunk size */
-  line-height:40px;
-  color:rgba(255,255,255,0.08);  /* 8 % for visibility—dial back later */
-  white-space:pre;
-  z-index:0;                 /* sit above the solid #000 background */
+  inset:0;                       /* cover the viewport */
+  z-index:0;                     /* under real content, above black bg */
   pointer-events:none;
-  user-select:none;          /* don’t let it get copied */
-  opacity:1;                 /* keep at 1; we already control alpha via rgba */
+
+  /* 1. a tiny SVG tile that says 010101010101                 */
+  /* 2. 5 % opacity via fill-opacity                           */
+  background-image:url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='280' height='60'>\
+  <text x='0' y='45' font-family='Roboto Mono' font-size='40' \
+        fill='white' fill-opacity='0.05'>010101010101</text>\
+</svg>");
+
+  background-size:280px 60px;    /* tile size */
+  background-repeat:repeat;
 }
