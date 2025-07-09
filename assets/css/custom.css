@@ -5,17 +5,29 @@ h1, h2, h3, h4, h5, h6, p, li, dd, dt, th, td, code, pre {
   font-family: "Roboto Mono", monospace !important;
 }
 
-/*  full-page, faint binary overlay  */
-body::before{
-  content:"";
+/* 5 %-opacity “0101…” text blanket */
+body::after{
+  /* full-viewport layer */
+  content:
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101"
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101"
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101"
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101"
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101"
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101"
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101"
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101"
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101"
+    "0101010101010101010101010101010101010101010101010101010101010101010101010101";
   position:fixed;
-  inset:0;                     /* cover entire viewport              */
+  top:0; left:0;
+  width:100vw; height:100vh;
+  font-family:"Roboto Mono", monospace;
+  font-size:28px;          /* adjust tile size */
+  line-height:34px;        /* keeps rows tight & even */
+  white-space:pre-wrap;    /* allow automatic wrapping */
+  color:#fff;
+  opacity:0.05;            /* 5 % visibility */
+  z-index:0;               /* under real content, above black bg */
   pointer-events:none;
-  z-index:0;                   /* above solid #000, below real text  */
-
-  /* 40×160 px SVG tile, base-64 encoded                              */
-  background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc0MCcgaGVpZ2h0PScxNjAnPjx0ZXh0IHg9JzAnIHk9JzMyJyBmb250LWZhbWlseT0nUm9ib3RvIE1vbm8sIG1vbm9zcGFjZScgZm9udC1zaXplPSczMicgZmlsbD0nd2hpdGUnIGZpbGwtb3BhY2l0eT0nMC4wNSc+MDEwMTAxMDEwMTAxMDEwMTA8L3RleHQ+PHRleHQgeD0nMCcgeT0nNjQnIGZvbnQtZmFtaWx5PSdSb2JvdG8gTW9ubywgbW9ub3NwYWNlJyBmb250LXNpemU9JzMyJyBmaWxsPSd3aGl0ZScgZmlsbC1vcGFjaXR5PScwLjA1Jz4wMTAxMDEwMTAxMDEwMTAxMDwvdGV4dD48dGV4dCB4PScwJyB5PSc5NScgZm9udC1mYW1pbHk9J1JvYm90byBNb25vLCBtb25vc3BhY2UnIGZvbnQtc2l6ZT0nMzInIGZpbGw9J3doaXRlJyBmaWxsLW9wYWNpdHk9JzAuMDUnPjAxMDEwMTAxMDEwMTAxMDEwPC90ZXh0Pjwvc3ZnPg==");
-
-  background-repeat:repeat;
-  background-size:40px 160px;  /* match the SVG's native size       */
 }
