@@ -5,29 +5,6 @@ h1, h2, h3, h4, h5, h6, p, li, dd, dt, th, td, code, pre {
   font-family: "Roboto Mono", monospace !important;
 }
 
-/* widen first column of the Day-2 schedule table */
-/* Let each schedule column grow up to half the row,  
-   but shrink nicely on narrow screens.               */
-.schedule-col{
-  flex: 1 1 45%;      /* basis 45 % → two nice columns on wide screens */
-  min-width: 290px;   /* collapses into one column on very small screens */
-}
-
-.schedule-col table{ width:100%; }
-
-/* First column (time) fixed width so the second column can take the rest */
-.day2-table td:first-child,
-.day2-table th:first-child{
-  width: 190px;
-  min-width: 190px;
-  white-space: nowrap;
-}
-
-/* Make sure the Activity column can wrap lines instead of shrinking */
-.day2-table td:nth-child(2),
-.day2-table th:nth-child(2){
-  white-space: normal;
-}
 
 /* 5 %-opacity “0101…” text blanket */
 /* body::after{ */
