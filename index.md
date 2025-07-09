@@ -35,7 +35,7 @@ Bring your dataset instincts, creative risk-taking, and caffeine of choice — w
 
 ## Event snapshot
 
-| **🗓 Dates** | Thursday - Friday • **24th - 25th** |
+| **🗓 Dates** | Thursday - Friday • **July 24th - 25th** |
 | **🏢 Venue** | Room TBD • Building TBD |
 | **👥 Teams** | 3–4 people • 31 people total |
 | **🏆 Prizes** | $100 (per individual of winning team) • Org-Wide Recognition |
