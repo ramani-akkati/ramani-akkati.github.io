@@ -4,3 +4,18 @@ html, body, .main-content, .site-footer, .page-header,
 h1, h2, h3, h4, h5, h6, p, li, dd, dt, th, td, code, pre {
   font-family: "Roboto Mono", monospace !important;
 }
+
+/* Faint binary pattern over the whole page */
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;                /* top:0; right:0; bottom:0; left:0; */
+  z-index:-1;             /* sit behind all content */
+  pointer-events:none;    /* don’t block clicks */
+  background-repeat:repeat;
+  background-image:url('data:image/svg+xml;utf8,\
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120">\
+  <text x="0"  y="40"  font-family="Roboto Mono" font-size="32" fill="white" fill-opacity="0.05">010101010101</text>\
+  <text x="0"  y="100" font-family="Roboto Mono" font-size="32" fill="white" fill-opacity="0.05">010101010101</text>\
+</svg>');
+}
