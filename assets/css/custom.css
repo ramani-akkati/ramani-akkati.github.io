@@ -8,8 +8,8 @@ h1, h2, h3, h4, h5, h6, p, li, dd, dt, th, td, code, pre {
 /* widen first column of the Day-2 schedule table */
 .day2-table td:first-child,
 .day2-table th:first-child{
-  width: 390px;      /* pick any width */
-  min-width: 390px;  /* prevent shrinking on small screens */
+  width: 290px;      /* pick any width */
+  min-width: 290px;  /* prevent shrinking on small screens */
   white-space: nowrap;
 }
 
