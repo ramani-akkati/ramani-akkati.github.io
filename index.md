@@ -29,7 +29,6 @@ DataFactory already holds dozens of labeled text and image datasets, each gather
 
 Bring your data intuition and energy - GPUs, mentors, and snacks will be on site.
 
----
 
 ## Event snapshot
 
