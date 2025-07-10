@@ -21,7 +21,7 @@ A : You self-organize into teams of 3–4. We’ll finalize rosters in Slack the
 
 A : All text and image datasets listed in the Data Blending Platform, plus any synthetic slices you create there. No private datasets from outside the platform.
 
-**Q : Can we have multimodal blend recpies?**
+**Q : Can we have multimodal blend recipes?**
 
 A : Not for this datathon. For this round we can only support staying in a single modality. You can choose either the Text track, the Image track, or the Red-Teaming track.
 
