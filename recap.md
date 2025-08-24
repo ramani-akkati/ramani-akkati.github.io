@@ -1,3 +1,9 @@
+---
+layout: default
+title: " 2025 Recap"
+permalink: /recap/
+---
+
 # Internal Data Intelligence Datathon 2025
 
 ## Recap & Summary
